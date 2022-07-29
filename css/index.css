@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* background-color: gray; */
+}
+
+body{
+    /* margin: 2%; */
+    /* overflow: hidden; */
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 20vh; */
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    /* justify-content: space-between; */
+}
+
+.logo{
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.signin-btn{
+    margin-right: 4%;
+    margin-top: 3%;
+    padding: 10px 10px;
+    width: 10%;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #9F2BC1 35%, #E1A2B8 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    /* #E1A2B8 #9F2BC1 */
+}
+
+
+.nav-item{
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+
+
+.bg-img{
+    /* margin-right: -20%; */
+     /* margin-left: 45%; */
+  /* transform: rotate(1deg); */
+  background-image: url("../images/backcover.svg") ;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top: -45%;
+  height: 720px;
+  /* width: 10%; */
+
+}
+
+.main-img{
+    margin-top: -50%;
+    /* height: 20px; */
+    margin-left: 35%;
+    /* width: 30px;
+    height: 30px; */
+}
+
+.main{
+    height: 85vh;
+    /* margin-left: -2%; */
+    width: 100%;
+    margin-top: 18%;
+    margin-left: -2%;
+}
+
+.left-section{
+    margin-left: 6%;
+    justify-content: center;
+    /* float: left; */
+    margin-top:12% ;
+    align-items: center;
+}
+
+.left-section h1{
+    font-size: 70px;
+    color: rgb(72, 6, 147);
+}
+
+.left-section h4{
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 200;
+    color: gray;
+}
+
+.learn-more-btn{
+    margin-right: 4%;
+    margin-top: 3%;
+    padding: 15px 20px;
+    width: 20%;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #9F2BC1 35%, #E1A2B8 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;  
+}
+
+.vector-img{
+    height: 85px;
+    margin-left: 45%;
+}
+
+
+    
+
+
+
